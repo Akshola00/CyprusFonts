@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./content.css">
+    <link rel="stylesheet" href="./fontFacePage.css">
+    <link rel="stylesheet" href="./diplaySectionStyle.css">
+    <link rel="stylesheet" href="./headingSection.css">
+    <link rel="stylesheet" href="./previewFonts.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo</div>
+            <ul class="menu">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="me">ME</div>
+        </nav>
+        <div class="lowernav">
+
+            <div class="searchbar">
+                <label for="search"></label>
+                <input type="search" id="searchbar" placeholder="search for fonts">
+            </div>
+            <div class="sorter">
+            <label for="sort">Sort by</label>
+            <select name="sort" id="sortID">
+                <option value="Popular">Popular</option>
+                <option value="Latest">Latest</option>
+                <option value="Name">Name</option>
+            </select>
+            </div>
+            <ul>
+                <li>Serif</li>
+                <li>Sans Serif</li>
+                <li>Monospaced</li>
+                <li>Script</li>
+                <li>Display</li>
+            </ul> 
+        </div>
+    </header>
+        
+        <a href="./ads.html"><img class="DisplaySectionAdvert"  src="./images/av1.jpg"></a>
+    
+    <section id="displaySectionID" class="displaySection">
+        <div  id="henryDisplay" class="p0001">
+            <br>
+            <p class="title">Henri Diddiot</p>
+            <p>Henry Diddot Regular</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Henry Diddot Bold</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Henry Diddot Italics</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+            
+            <img style="width: 10cm; height: 120px; display: inline; align-content: center; justify-content: center;" src="./images/flower.jpg" alt="">
+            
+            <ul>
+                <button><a href="#PreviewSectionID">Preview</a></button>
+                <button><a href="./ads.html">Use link</a></button>
+                <button><a href="#aboutsectionID">About & liscence</a></button>
+                <button><a href="">Download Family</a></button>
+            </ul>
+            
+            <section id="PreviewSectionID" class="PreviewSection">
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">Preview</span>
+                <ul>
+                    <label for="fontselection">Font Type :</label>
+
+                    <select onchange="onchangeFontType('typesHenrydiddiot','Henritest')" name="fontselection" id="typesHenrydiddiot">
+                        <option value="Regular">Regular</option>
+                        <option value="Thin">Thin</option>
+                        <option value="Bold">Bold</option>
+                        <option value="Italics">Italics</option>
+                    </select>
+                    <label for="range"></label>
+                    <input oninput="oninputFunc('fontsetterhenrydiddiot','Henritest')" placeholder="range" id="fontsetterhenrydiddiot" type="range" min="10" max="100" value="15" width="40px">
+
+                    <button class="previewdownload">Download</button>
+                </ul>
+                <div id="Henritest" class="showtextdiv">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam assumenda
+                     voluptatem id natus quasi! Animi, saepe, soluta incidunt, vero quia expedita
+                     ullam magnam maxime sit exercitationem quaerat voluptate quae blanditiis?
+                    <br> <br>
+                    AaBbCcDdEeFfGgHhIiJjKkLlMm
+                    NnOoPpQqRrSsTtUuVvWwXxYyZZ
+                    <br><br>
+                    Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.
+                    Hill sold ham men made lose case. Views abode law heard jokes too. Was are delightful solicitude
+                    discovered collecting man day. Resolving neglected sir tolerably but existence conveying for.
+                    Day his put off unaffected literature partiality inhabiting.
+                </div>
+            </section>
+            
+            <section id="aboutsectionID" class="aboutsection">
+                <br>
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">About & Liscence</span>
+                <div>
+                    <h2>About</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                    <h2>Liscence</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendisgh ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+
+
+
+        <div id="anydoreDisplay" class="p0001">
+            <br>
+            <p class="title">Anydore</p>
+            <p>Anydore Regular</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Anydore Bold</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Anydore Italics</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+            
+            <img style="width: 10cm; height: 120px; display: inline; align-content: center; justify-content: center;" src="./images/flower.jpg" alt="">
+            
+            <ul>
+                <button><a href="#anydorePreviewSection">Preview</a></button>
+                <button><a href="./ads.html">Use link</a></button>
+                <button><a href="#anydoreAboutSection">About & liscence</a></button>
+                <button><a href="">Download Family</a></button>
+            </ul>
+            
+            <section id="anydorePreviewSection" class="PreviewSection">
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">Preview</span>
+                <ul>
+                    <label for="fontselection">Font Type :</label>
+                    <select onchange="onchangeFontType('typesanydore','anydoretest')" name="fontselection" id="typesanydore">
+                        <option value="Regular">Regular</option>
+                        <option value="Thin">Thin</option>
+                        <option value="Bold">Bold</option>
+                        <option value="Italics">Italics</option>
+                    </select>
+
+                    <input oninput="oninputFunc('fontsetterAnydore','anydoretest')" id="fontsetterAnydore" type="range" min="10" max="100" value="15" width="40px">
+
+                    <button class="previewdownload">Download</button>
+                </ul>
+                <div id="anydoretest" class="showtextdiv">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam assumenda
+                     voluptatem id natus quasi! Animi, saepe, soluta incidunt, vero quia expedita
+                     ullam magnam maxime sit exercitationem quaerat voluptate quae blanditiis?
+                    <br> <br>
+                    AaBbCcDdEeFfGgHhIiJjKkLlMm
+                    NnOoPpQqRrSsTtUuVvWwXxYyZZ
+                    <br><br>
+                    Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.
+                    Hill sold ham men made lose case. Views abode law heard jokes too. Was are delightful solicitude
+                    discovered collecting man day. Resolving neglected sir tolerably but existence conveying for.
+                    Day his put off unaffected literature partiality inhabiting.
+                </div>
+            </section>
+            
+            <section id="anydoreAboutSection" class="aboutsection">
+                <br>
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">About & Liscence</span>
+                <div>
+                    <h2>About</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                    <h2>Liscence</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendisgh ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                </div>
+            </section>
+        </div>
+        
+    </section>
+    
+
+    <div class="anad">
+        <img style=" margin-top: 100px; width: 66%; height: 100px;" src="./images/carbckgrnd.PNG" alt="an advertisment">
+    </div>
+    
+    <Section id="fontDisplaySection" class="section1">
+
+        <!-- henry diddiot font -->
+        <div class="henry">
+            <div class="name">Henry Diddiot</div>
+            <div class="egfont" style="font-family: henrydidot;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet debitis maiores vel reiciendis dicta iusto saepe 
+                obcaecati dolorum aut optio?    
+            </div>
+            <ul><button>Preview</button>
+                <button id="0001" class="mgl" onclick="viewFunc('henryDisplay')">Download</button></ul>
+        </div>
+        <!-- dummy -->
+
+        <div class="henry">
+            <div class="name">Henry Diddiot</div>
+            <div class="egfont" style="font-family: henrydidot;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet debitis maiores vel reiciendis dicta iusto saepe 
+                obcaecati dolorum aut optio?    
+            </div>
+            <ul><button>Preview</button>
+                <button id="0001" class="mgl" onclick="viewFunc('henryDisplay')">Download</button></ul>
+        </div>
+        <div class="henry">
+            <div class="name">Henry Diddiot</div>
+            <div class="egfont" style="font-family: henrydidot;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet debitis maiores vel reiciendis dicta iusto saepe 
+                obcaecati dolorum aut optio?    
+            </div>
+            <ul><button>Preview</button>
+                <button id="0001" class="mgl" onclick="viewFunc('henryDisplay')">Download</button></ul>
+        </div>
+        <div class="henry">
+            <div class="name">Henry Diddiot</div>
+            <div class="egfont" style="font-family: henrydidot;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet debitis maiores vel reiciendis dicta iusto saepe 
+                obcaecati dolorum aut optio?    
+            </div>
+            <ul><button>Preview</button>
+                <button id="0001" class="mgl" onclick="viewFunc('henryDisplay')">Download</button></ul>
+        </div>
+        <div class="henry">
+            <div class="name">Henry Diddiot</div>
+            <div class="egfont" style="font-family: henrydidot;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet debitis maiores vel reiciendis dicta iusto saepe 
+                obcaecati dolorum aut optio?    
+            </div>
+            <ul><button>Preview</button>
+                <button id="0001" class="mgl" onclick="viewFunc('henryDisplay')">Download</button></ul>
+        </div>
+        <!-- dummy -->
+
+
+        <div class="henry">
+            <div class="name">Anydore</div>
+            <div class="egfont" style="font-family: anydore;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet debitis maiores vel reiciendis dicta iusto saepe 
+                obcaecati dolorum aut optio?    
+            </div>
+            <ul><button>Preview</button>
+                <button id="0001" class="mgl" onclick="viewFunc('anydoreDisplay')">Download</button></ul>
+        </div>
+
+        <div class="henry">
+            <div class="name">Baskervville</div>
+            <div class="egfont" style="font-family: Baskervville;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet debitis maiores vel reiciendis dicta iusto saepe 
+                obcaecati dolorum aut optio?    
+            </div>
+            <ul><button>Preview</button>
+                <button id="0001" class="mgl" onclick="viewFunc('baskervvilleDisplay')">Download</button></ul>
+        </div>
+    </Section>
+
+    <footer >
+        <div class="ft">
+           <div class="main">
+                <h1 class="footerheaders">About Us</h1>
+               <p class="ptagfooter"> Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Culpa praesentium earum
+                nesciunt saepe numquam, sed fuga officia 
+                quasi non nobis eum doloremque ad eligendi
+                a, fugiat modi ipsam nemo perspiciatis! </p>
+
+
+
+           </div>
+           <div class="main">
+                <h1 class="footerheaders">Latest Updates</h1>
+                <p class="ptagfooter"> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Culpa praesentium earum
+                    nesciunt saepe numquam, sed fuga officia 
+                    quasi non nobis eum doloremque ad eligendi
+                    a, fugiat modi ipsam nemo perspiciatis! </p>
+           </div>
+           <div>
+            <form>
+                <textarea placeholder="send us an email" name="emailtext" id="emailtext" cols="30" rows="10"></textarea>
+                <button class="hhhh" type="submit">Email Us</button>
+            </form>
+           </div>
+        </div>
+        <br>
+        <div  style="display: flex; background-color: rgb(210, 232, 240); border-radius: 100px; align-items: center; justify-content: space-between;  ">
+            <a style="margin-left: 100px;"class="handles" href="#"><img src="./images/instagram_logo_40px.png"> necessitatibus eveniet</a>
+            <a class="handles" href="#"><img src="./images/facebook_circled_40px.png">voluptatem doloribus </a>
+            <a class="handles" href="#"><img style="padding: 2px;" src="./images/twitter_30px.png"> Culpa sed repudiandae</a>
+            <a style="margin-right: 100px;" class="handles" href="#"><img style="padding: 2px;" src="./images/github_30px.png" alt="">repudiandae corporis! </a>
+        </div>            
+        <hr>
+
+           <ul class="lastul">
+            <li><a herf="#">Home</a></li>
+            <li><a herf="#">About</a></li>
+            <li><a herf="#">Our Works</a></li>
+            <li><a herf="#">Blogs</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+    </footer>
+    <script src="./font_incScriptPage.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

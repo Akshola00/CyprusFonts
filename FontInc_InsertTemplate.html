@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./content.css">
+    <link rel="stylesheet" href="./fontFacePage.css">
+    <link rel="stylesheet" href="./diplaySectionStyle.css">
+    <link rel="stylesheet" href="./headingSection.css">
+</head>
+<body>
+
+    <div class="listoffonts">
+    <button class="myfonts" onclick="viewFunc('henryDisplay')">henry</button>
+    <button class="myfonts" onclick="viewFunc('anydoreDisplay')">anydore</button>
+    <button class="myfonts" onclick="viewFunc('leonard')">lastone</button>
+    </div>
+
+    <input id="searchbar" style="width:200px; height:30px; " type="search" >
+    <section id="displaySectionID" class="displaySection">
+
+        <div  id="henryDisplay" class="p0001">
+            <br>
+            <p class="title">Henri Diddiot</p>
+            <p>Henry Diddot Regular</p> <button class="sidebuttons">Download bjbj</button>
+            
+        </div>
+
+        <div id="leonard" class="p0001">
+            <br>
+            <p class="title">jaguar</p>
+            <p>Anydore Regular</p> <button class="sidebuttons">Download Only</button>
+           
+            <br>
+            <p class="title">Anydore</p>
+            <p>Anydore Regular</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Anydore Bold</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Anydore Italics</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+            
+            <img style="width: 10cm; height: 120px; display: inline; align-content: center; justify-content: center;" src="./images/flower.jpg" alt="">
+            
+            <ul>
+                <button><a href="#anydorePreviewSection">Preview</a></button>
+                <button><a href="./ads.html">Use link</a></button>
+                <button><a href="#anydoreAboutSection">About & liscence</a></button>
+                <button><a href="">Download Family</a></button>
+            </ul>
+            
+            <section id="anydorePreviewSection" class="PreviewSection">
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">Preview</span>
+                <ul>
+                    <label for="fontselection">Font Type :</label>
+                    <select onchange="onchangeFontType('typesofthefontan','showtextdivIDAn')" name="fontselection" id="typesofthefontan">
+                        <option value="Regular">Regular</option>
+                        <option value="Thin">Thin</option>
+                        <option value="Bold">Bold</option>
+                        <option value="Italics">Italics</option>
+                    </select>
+
+                    <input oninput="oninputFunc('fontsetterAnydore','showtextdivIDAn')" id="fontsetterAnydore" type="range" min="10" max="100" value="15" width="40px">
+
+                    <button class="previewdownload">Download</button>
+                </ul>
+                <div id="showtextdivIDAn" class="showtextdiv">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam assumenda
+                     voluptatem id natus quasi! Animi, saepe, soluta incidunt, vero quia expedita
+                     ullam magnam maxime sit exercitationem quaerat voluptate quae blanditiis?
+                    <br> <br>
+                    AaBbCcDdEeFfGgHhIiJjKkLlMm
+                    NnOoPpQqRrSsTtUuVvWwXxYyZZ
+                    <br><br>
+                    Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.
+                    Hill sold ham men made lose case. Views abode law heard jokes too. Was are delightful solicitude
+                    discovered collecting man day. Resolving neglected sir tolerably but existence conveying for.
+                    Day his put off unaffected literature partiality inhabiting.
+                </div>
+            </section>
+            
+            <section id="anydoreAboutSection" class="aboutsection">
+                <br>
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">About & Liscence</span>
+                <div>
+                    <h2>About</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                    <h2>Liscence</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendisgh ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+
+        <div id="anydoreDisplay" class="p0001">
+            <br>
+            <p class="title">Anydore</p>
+            <p>Anydore Regular</p> <button class="sidebuttons">Download Only</button>
+           
+            <br>
+            <p class="title">Anydore</p>
+            <p>Anydore Regular</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Anydore Bold</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+
+            <p>Anydore Italics</p> <button class="sidebuttons">Download Only</button>
+            <div class="innerview">
+                The Quick Brown Fox Jumped Over the Lazy Dog
+            </div> <br>
+            
+            <img style="width: 10cm; height: 120px; display: inline; align-content: center; justify-content: center;" src="./images/flower.jpg" alt="">
+            
+            <ul>
+                <button><a href="#anydorePreviewSection">Preview</a></button>
+                <button><a href="./ads.html">Use link</a></button>
+                <button><a href="#anydoreAboutSection">About & liscence</a></button>
+                <button><a href="">Download Family</a></button>
+            </ul>
+            
+            <section id="anydorePreviewSection" class="PreviewSection">
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">Preview</span>
+                <ul>
+                    <label for="fontselection">Font Type :</label>
+                    <select onchange="onchangeFontType('typesofthefontjagub','showtextdivIDjag')" name="fontselection" id="typesofthefontjagub">
+                        <option value="Regular">Regular</option>
+                        <option value="Thin">Thin</option>
+                        <option value="Bold">Bold</option>
+                        <option value="Italics">Italics</option>
+                    </select>
+
+                    <input oninput="oninputFunc('fontsetterjaguar','showtextdivIDjag')" id="fontsetterjaguar" type="range" min="10" max="100" value="15" width="40px">
+
+                    <button class="previewdownload">Download</button>
+                </ul>
+                <div id="showtextdivIDjag" class="showtextdiv">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam assumenda
+                     voluptatem id natus quasi! Animi, saepe, soluta incidunt, vero quia expedita
+                     ullam magnam maxime sit exercitationem quaerat voluptate quae blanditiis?
+                    <br> <br>
+                    AaBbCcDdEeFfGgHhIiJjKkLlMm
+                    NnOoPpQqRrSsTtUuVvWwXxYyZZ
+                    <br><br>
+                    Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.
+                    Hill sold ham men made lose case. Views abode law heard jokes too. Was are delightful solicitude
+                    discovered collecting man day. Resolving neglected sir tolerably but existence conveying for.
+                    Day his put off unaffected literature partiality inhabiting.
+                </div>
+            </section>
+            
+            <section id="anydoreAboutSection" class="aboutsection">
+                <br>
+                <hr style="width: 100%; margin-left: -8px; padding: 0;">
+                <span class="Previewheading">About & Liscence</span>
+                <div>
+                    <h2>About</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                    <h2>Liscence</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendisgh ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit qui exercitationem quibusdam,
+                        iure temporibus, voluptates odit perferendis ad illo voluptatibus blanditiis dolorem impedit libero
+                        harum magnam nulla ea minus.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        
+    </section>
+    <script>
+
+    //searchbar code
+    const searchInput = document.getElementById("searchbar")
+    const fontList = document.getElementById("listoffonts")
+
+    searchInput.addEventListener("input", () => {
+        const searchTerm = searchInput.value.toLowerCase();
+        const theContents = fontList.getElementsByClassName("myfonts")
+
+        for (const fonts of theContents){
+            // const fontName = font.querySelector(".font-name").textContent.toLowerCase();
+            const fontname = fonts.querySelector(".myfonts").textContent.toLowerCase();
+            console.log(fontname)
+            if (fontname.includes(searchTerm)) {
+                    fonts.style.display = "block";
+                } else {
+                    fonts.style.display = "none";
+                }
+        }
+    })
+
+
+
+    function viewFunc(displayName) {
+        const hider = document.querySelectorAll('.p0001');
+        hider.forEach((content) => {
+            content.style.display = 'none';
+        });
+
+        document.getElementById(displayName).style.display = 'block'; // Corrected this line
+    }
+
+    function oninputFunc(IDofPreview, textBoxOfPreview,typesofthefont){
+        let fontsetter = document.getElementById(IDofPreview)
+        let showtextdivID = document.getElementById(textBoxOfPreview)
+
+
+        let newsize = `${fontsetter.value}px`
+        showtextdivID.style.fontSize = newsize
+
+    }
+
+    function onchangeFontType(IDofPreview,textBoxOfPreview){
+        let typesofthefont = document.getElementById(IDofPreview);
+        let mytextBoxOfPreview = document.getElementById(textBoxOfPreview) 
+
+        let fontWeight = 'normal';
+        let fontStyle = 'normal';
+
+        if (typesofthefont.value == 'Bold') {
+        fontWeight = 'bold'
+        } else if (typesofthefont.value == 'Italics') {
+        fontStyle = 'italic'
+        } else if (typesofthefont.value == 'Thin') {
+        fontStyle = 'lighter'
+        }
+
+        mytextBoxOfPreview.style.fontWeight = fontWeight;
+        mytextBoxOfPreview.style.fontStyle = fontStyle;
+
+    }
+// let fontsetter = document.getElementById('fontsetter')
+// let showtextdivID = document.getElementById('showtextdivID')
+
+
+// fontsetter.addEventListener('input', () => {
+//     let newsize = `${fontsetter.value}px`
+//     showtextdivID.style.fontSize = newsize
+// })
+
+// let typesofthefont = document.getElementById('typesofthefont')
+// typesofthefont.addEventListener('change', () => {
+//     let fontWeight = 'normal';
+//     let fontStyle = 'normal';
+
+//     if (typesofthefont.value == 'Bold') {
+//         fontWeight = 'bold'
+//     } else if (typesofthefont.value == 'Italics') {
+//         fontStyle = 'italic'
+//     }
+
+//     showtextdivID.style.fontWeight = fontWeight;
+//     showtextdivID.style.fontStyle = fontStyle;
+// })
+
+    </script>
+</body>
+</html>
