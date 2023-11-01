@@ -1,129 +1,214 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color: rgb(247, 211, 211);
-   }
-   ul{
-       list-style: none;
-   }
-   nav{
-       line-height: 1.6;
-       background-color: silver;
-       margin: 0;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding: .5rem 0;
-       /* position:fixed; */
-       /* top: 0; */
-       width: 100%;
-   }
+    background-color: rgb(247, 229, 229);
+}
 
-   .logo{
-       color: white;
-       font-weight: 700 ;
-       font-size: 1.5rem;
-       margin-left: 4%;
-       font-family: Montserrat;
-       
-   }
-   .lowernav{
-       background-color: silver;
-       width: 67%;
-       position: absolute;
-       display: flex;
-       align-items: center;
-   }
-   .hide{
+ul {
+    list-style: none;
+}
+
+nav {
+    z-index: 199;
+    line-height: 1.6;
+    background-color: silver;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    font-weight: 700;
+    
+    margin-left: 4%;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    font-size: 2rem; 
+}
+
+.glow {
+    -webkit-animation: none; /* Remove the original animation */
+    -moz-animation: none; /* Remove the original animation */
+    animation: none; /* Remove the original animation */
+    text-shadow: 0 0 5px rgb(228, 168, 168), 0 0 10px rgb(228, 168, 168), 0 0 15px rgb(228, 168, 168), 0 0 20px rgb(228, 168, 168); /* Add a static pink glow effect */
+}
+.lowernav {
+    margin-top: -65px;
+    background-color: silver;
+    width: 67%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hamburger {
     display: none;
-   }
-   .lowernav>ul{
-       display: flex;
-   }
-   .sorter{
-       font-size: 1rem;
-       padding: 5px;
-       color: white;
-   }
-   .sorter>select{
-       font-size: 1rem;
-       padding: 5px;
-   }
-   /* :hover{border: 1px solid black;} */
-   .lowernav>ul>li{
-       text-decoration: none;
-       color: white;
-       margin-left: 10px;
-       margin-left: 10px;
-       font-size: .9rem;
-       font-family: Poppins;
-       background-color:  rgb(228, 168, 168);
-       padding: 10px;
-       border-radius: 100px;
-   }
-   .lowernav>ul>li:hover{
-       text-decoration: underline;
-       cursor: pointer;
-   }
-   .searchbar{
-       margin-left: 10px;
-       padding: 10px;
-       
-   }
-   .menu>li {
-       display: inline-block;
-   }
-   .menu>li>a{
-       text-decoration: none;
-       color: white;
-       padding: 10px 1.5rem;
-       font-size: 1rem;
-       font-family: Poppins;
-   }
-   .me{
-       background-color: rgb(228, 168, 168);
-       padding: 10px;
-       margin-right: 100px;
-       border-radius: 100px;
-   }
+}
+
+.hide {
+    display: none;
+}
+
+.types {
+    display: flex;
+    gap: 10px;
+    /* position: absolute; */
+    /* transition: 1.5s ease; */
+    /* margin-top: 60%; */
+    /* right: 4%; */
+}
+
+/* .types {
+    margin-top: 60%;
+    right: 4%;
+    display: none;
+    position: absolute;
+} */
 
 
 
-   
+
+.sorter {
+    font-size: 1rem;
+    padding: 5px;
+    color: white;
+}
+
+.sorter>select {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+/* :hover{border: 1px solid black;} */
+.lowernav>ul>li {
+    /* text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    font-family: Poppins;
+    background-color: rgb(228, 168, 168);
+    padding: 10px;
+    border-radius: 100px; */
+
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    margin-top: 8px;
+    font-family: Poppins;
+    background-color: rgb(228, 168, 168);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.lowernav>ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#searchbar {
+    font-size: 1rem;
+    padding: 5px;
+    width: 160px;
+    border: 1px solid black;
+
+}
+
+.sortbyicon {
+    margin-right: 5%;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid rgb(88, 88, 88);
+    display: none;
+}
+
+.menu>li {
+    display: inline-block;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 1.5rem;
+    font-size: 1rem;
+    font-family: Poppins;
+}
+
+.menu.show {
+    display: block;
+}
+
+.x1 {
+    transform: rotate(45deg);
+    position: absolute;
+    transition: .5s ease;
+}
+
+.x2 {
+    transform: rotate(-45deg);
+    position: absolute;
+    transition: .5s ease;
+}
+
+.x3 {
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.me {
+    background-color: rgb(228, 168, 168);
+    padding: 10px;
+    margin-right: 100px;
+    border-radius: 100px;
+}
+
+
+
+
 /* footer */
-footer{
+footer {
     background-color: #f4f4f4;
     border-top: 5px solid silver;
     padding: 6px 30px 20px 30px;
     bottom: 0;
     height: auto;
 }
+
 .ft {
     display: flex;
     flex-wrap: nowrap;
     gap: 5rem;
 }
-.main{
+
+.main {
     width: 25rem;
 }
-.footerheaders{
+
+.footerheaders {
     font-size: 2.5rem;
     font-family: henrydidot;
 }
-.ptagfooter{
+
+.ptagfooter {
     font-family: system-ui;
     font-size: 1.1rem;
 }
-#emailtext{
+
+#emailtext {
     /* position: relative; */
     margin-top: 30px;
     border: 1px solid silver;
     /* border-radius: 20px; */
 }
 
-:hover{
-    /* border: 1px solid black; */
-}
+
+
 .hhhh {
     background-color: silver;
     padding: 10px 20px 10px 20px;
@@ -139,21 +224,28 @@ footer{
     background-color: #5e4d4d;
 }
 
-.handles{
+.handles {
     padding: 10px;
     text-decoration: none;
     color: black;
     font-size: 1rem;
     font-family: system-ui;
 }
-.handles:hover{
+
+.handles:hover {
     text-decoration: underline;
 }
-.lastul{
+
+.lastul {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.lastul>li>a{
+
+.lastul>li>a {
     font-size: 1.3rem;
 }
+
+
+
+

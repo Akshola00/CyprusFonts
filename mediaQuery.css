@@ -1,0 +1,133 @@
+@media (max-width: 515px) {
+
+    nav {
+        justify-content: space-around;
+    }
+
+    .hamburger {
+        margin-right: 2cm;
+        display: block;
+    }
+
+    .hamburger>div {
+        display: block;
+        width: 30px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: white;
+        margin: 6px 0;
+
+    }
+
+    .DisplaySectionAdvert{
+        display: none;
+    }
+
+    .menu {
+        border-top: 1.8px solid pink;
+        position: absolute;
+        top: 55px;
+        width: 100%;
+        background: silver;
+        text-align: center;
+        transition: all .5s;
+        line-height: 50px;
+        margin: 0;
+        padding: 0;
+        display: none;
+        z-index: 100;
+    }
+
+    .menu.show {
+        display: block;
+    }
+
+    .menu>li {
+        display: block;
+    }
+
+    .menu>li>a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 1.5rem;
+        font-size: 1.4rem;
+        font-family: montserrat;
+    }
+
+    .lowernav {
+        margin-top: -84px;
+        width: 100%;
+    }
+
+    .sortbyicon {
+        display: block;
+    }
+    .types {
+        display: none;
+        gap: 10px;
+        position: absolute;
+        transition: 1.5s ease;
+        margin-top: 8cm;
+        right: 4%;
+    }
+    .shower{
+        display: block;
+    }
+    .ft{
+        display: block;
+    }
+    .main{
+        width: auto;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .popupbody{
+        display: none;
+        width: 100%;
+        place-items: center; 
+        height: 100vh;
+        position: absolute;
+        z-index: 200;
+        transform: translate(-50%, -50%); 
+        left: 50%;
+        top: 50%;
+        background-color: rgb(0, 0, 0, .8);
+    }
+    .closebutton{
+        margin-left: 95%;  
+        font-size: 30px;  
+        background-color: gainsboro;
+        cursor: pointer;
+        display: block;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .displaySection{
+        height: 88vh;
+        width: 10cm;
+        right:auto;
+        top: auto;
+    }
+    .showtextdiv{
+        width: 9cm;
+        height: 10cm;
+   }
+   .fonttype{
+    font-size: 1rem;
+   }
+   .PreviewSectionAd{
+    padding-bottom: 10px; 
+    width: 80%; 
+    margin-top: auto;
+    height: 120px; 
+    }
+    .p0001>ul>button{
+        padding: 5px;
+        font-size: 1rem;
+    }
+}

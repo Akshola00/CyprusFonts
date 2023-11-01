@@ -1,13 +1,21 @@
-.DisplaySectionAdvert{
+.DisplaySectionAdvert {
     margin-top: 40px;
     position: absolute;
-    margin-left: 67%;  
-    z-index: 1; 
-    height: 14cm;
+    margin-left: 67%;
+    z-index: 1;
+    height: 10cm;
+    display: block;
     width: 11.5cm;
 }
 
-.displaySection{
+.popupbody {
+    display: block;
+}
+
+.displaySection {
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
     /* margin-top: 20px; */
     height: 88vh;
     width: 12cm;
@@ -15,28 +23,63 @@
     position: absolute;
     /* position: sticky; */
     right: 0;
-    /* top: 70px; */
+    top: 75px;
     overflow: auto;
 }
-.p0001{margin-left: 10px;
-display: none;
+
+.p0001 {
+    margin-left: 10px;
+    display: none;
 }
-.title{
+
+.fontName {
+    border: 1px solid gray;
+    padding: 3px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.closebutton {
+    margin-left: 95%;
     font-size: 30px;
-    margin-left: 20px;
-    margin-top: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: gainsboro;
+    cursor: pointer;
+    display: none;
 }
-.p0001>p{
-    font-size: 25px;
-    /* margin-left: 20px; */
-    margin-top: 0;
-    padding: 0;  
+
+.list {
+    padding-left: 0px;
 }
-.innerview{
+
+.copyxsharebutton {
+    float: right;
+    margin-right: 10%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.copyxsharebutton>span {
+    margin: 10px;
+}
+
+.aboutsection {
+    margin-left: 10px;
+
+}
+
+.abal {
+    font-size: 1rem;
+}
+
+.thelink {
+    margin-left: 10px;
+}
+
+.aboutsection>div>h2 {
+    color: grey;
+}
+
+.innerview {
     /* width: 11cm; */
     /* height: 2cm; */
     font-size: 1.5rem;
@@ -46,58 +89,56 @@ display: none;
     /* margin-left: 10px; */
     /* border: 1px solid rgb(12, 10, 10) ; */
 }
-.sidebuttons{
-    position: absolute;
-    margin-top: -1.4cm;
-    margin-left: 8cm;
-    padding: 5px;
-    font-size: 1rem;
 
-}
-.p0001>ul{
-    margin-left: -40px;
-    position: fixed;
-    bottom: 0;
-    display:none;
-    /* box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2); */
-    
-}
-.p0001>ul>button{
+.p0001>ul>button {
     padding: 5px;
     font-size: 1rem;
-    /* box-shadow:0px 15px 20px 10px  silver; */
 }
-.p0001>ul>button>a{
+
+.p0001>ul>button>a {
     text-decoration: none;
     color: black;
 }
-.PreviewSection>ul{
-    margin-left: -45px ;
+
+.PreviewSection>ul {
+    margin-left: -45px;
     font-size: 1.3rem;
 }
-#typesofthefont, .previewdownload{
+
+#typesofthefont,
+.previewdownload {
     font-size: 1rem;
-    padding: 8px;
+    /* padding: 8px; */
 }
+
 /* :hover{border: 1px solid black;} */
-.showtextdiv{
-     width: 11cm;
-     height: 10cm;
-     overflow-y:auto;
-     overflow-x: hidden;
-     background-color: rgb(228, 168, 168);
-     font-size: 1rem;
+.showtextdiv {
+    width: 11cm;
+    height: 10cm;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(228, 168, 168);
+    font-size: 1rem;
 }
-.Previewheading{
+
+.Previewheading {
     padding: 10px;
     background-color: rgb(228, 168, 168);
     font-size: 1rem;
     font-family: poppins;
     display: inline-block;
 }
-.aboutsection>div>p{
-    font-size: 1.2rem;
-    font-family: Montserrat;
-    font-weight: lighter;
+
+.withaboutandliscence {
+    font-size: 1rem;
 }
 
+.PreviewSectionAd {
+    margin-top: 10px;
+    width: 10cm;
+    height: 120px;
+}
+#typesHenrydiddiot{
+    font-size: 1rem;
+    padding: 5px;
+}
